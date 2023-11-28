@@ -1,5 +1,9 @@
 const express = require('express');
+import helmet from "helmet"
+
 const app = express();
+app.use(helmet())
+
 
 
 
